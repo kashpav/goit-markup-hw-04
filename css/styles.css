@@ -265,15 +265,16 @@ padding-top: 0;
     margin-bottom: 30px;
 }
 
-.masters-soc {
+.masters-soc-list {
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
-.masters-soc-icon + .masters-soc-icon {
+.masters-soc-item + .masters-soc-item {
     margin-left: 10px;
 }
+
 
 .masters-soc-link {
     width: 44px;
