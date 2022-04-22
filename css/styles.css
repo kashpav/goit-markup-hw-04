@@ -150,8 +150,9 @@ color: var(--text-color);
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/solutions.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/solutions.jpg);
     background-repeat: no-repeat;
+    background-position: cover;
 }
 
 .main-title {
@@ -161,7 +162,7 @@ color: var(--text-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 696px;
@@ -264,13 +265,23 @@ padding-top: 0;
     margin-bottom: 30px;
 }
 
-/* .team-name {
-    margin-top: 30px;
+.masters-soc {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
 }
 
-.team-duty {
-    margin-bottom: 30px;
-} */
+.masters-soc-icon + .masters-soc-icon {
+    margin-left: 10px;
+}
+
+.masters-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: block ;
+}
 
 .team-title {
     font-weight: 700;
