@@ -88,8 +88,6 @@ margin-right: 93px;
 
 .item {
     display: block;
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
 }
 
 .item + .item {
@@ -148,7 +146,13 @@ color: var(--text-color);
     display: block;
     padding-top: 200px;
     padding-bottom: 200px;
-        }
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/solutions.jpg);
+    background-repeat: no-repeat;
+}
 
 .main-title {
     font-weight: 900;
