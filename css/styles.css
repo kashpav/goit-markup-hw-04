@@ -70,32 +70,21 @@ ul, ol{
     color: var(--text-color);
 }
 
-.header-icon-image {
-    display: block;
-    fill: currentColor;
-    height: 16px;
-    margin-right: 10px;
-    }
-
-.header-icon-image:hover,
-.header-icon-image:focus {
-    color: var(--accent-color);
-}
-
-/* .masters-soc-link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
+.header-contacts {
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #AFB1B8;
+    height: 16px;
 }
 
-.masters-soc-icon {
+.header-icon-image {
     fill: currentColor;
-} */
+    margin-right: 10px;
+}
 
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent-color);
+}
 
 /* ----Header line---- */
 .header-line {
@@ -243,17 +232,6 @@ color: var(--text-color);
     border-radius: 3px;
 }
 
-/* .advantage-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--team-background-color);
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 3px;
-} */
-
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -347,11 +325,6 @@ color: var(--text-color);
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
-/* 
-.masters-soc-link:hover .masters-soc-icon,
-.masters-soc-link:focus .masters-soc-icon {
-    fill: black;
-} */
 
 .face {
     display: block;
@@ -377,7 +350,6 @@ color: var(--text-color);
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 } 
-
 
 .team-title {
     font-weight: 700;
@@ -417,16 +389,6 @@ color: var(--text-color);
 .masters-soc-item + .masters-soc-item {
     margin-left: 10px;
 }
-
-/* .masters-soc-link {
-    width: 44px;
-    height: 44px;
-    background-color: tomato;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}  */
 
 /* ---Footer section--- */
 
