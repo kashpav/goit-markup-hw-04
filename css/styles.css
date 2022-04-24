@@ -61,8 +61,39 @@ ul, ol{
     border-bottom: 1px solid #EEEEEE;
 }
 
-/* ----Header line---- */
+.header-contact-block {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    width: 36px;
+    hight: 32px;
+    color: var(--text-color);
+}
 
+.header-icon-image {
+    display: block;
+    color: currentColor;
+    height: 25px;
+    margin-right: 10px;
+    }
+
+
+/* .masters-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+}
+
+.masters-soc-icon {
+    fill: currentColor;
+} */
+
+
+/* ----Header line---- */
 .header-line {
     display: flex;
     align-items: center;
@@ -113,18 +144,15 @@ margin-right: 93px;
     padding-bottom: 32px;
 }
 
+.header-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contacts {
     display: flex;
     margin-left: auto;
-}
-
-.mail::before {
-    content: "";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    background-image: url(../images/icons/symbol-defs.svg#icon-envelope);
-    background-size: contain;
 }
 
 .contact {
@@ -147,10 +175,7 @@ color: var(--text-color);
     color: var(--accent-color);
 }
 
-/* .contacts-list {
-    display: flex;
-    justify-content: center;
-} */
+
 
 /* ----Main section------ */
 
@@ -302,7 +327,6 @@ color: var(--text-color);
 .masters-soc-link {
     width: 44px;
     height: 44px;
-    /* background-color: tomato; */
     border-radius: 50%;
     display: flex;
     align-items: center;
