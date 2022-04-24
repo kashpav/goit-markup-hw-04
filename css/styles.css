@@ -202,6 +202,17 @@ color: var(--text-color);
 }
 
 /* ---advantages section--- */
+.advantage-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--team-background-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -212,6 +223,7 @@ color: var(--text-color);
 
 .advantage-item {
     display: block;
+    width: 270px;
 }
 
 .advantage-item + .advantage-item {
