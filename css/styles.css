@@ -280,22 +280,23 @@ padding-top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #AFB1B8;
 }
 
 .masters-soc-icon {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 .masters-soc-link:hover,
 .masters-soc-link:focus {
-    background-color: teal;
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 }
-
+/* 
 .masters-soc-link:hover .masters-soc-icon,
 .masters-soc-link:focus .masters-soc-icon {
     fill: black;
-}
-
+} */
 
 .face {
     display: block;
