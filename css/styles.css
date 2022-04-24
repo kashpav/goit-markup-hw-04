@@ -72,11 +72,15 @@ ul, ol{
 
 .header-icon-image {
     display: block;
-    color: currentColor;
-    height: 25px;
+    fill: currentColor;
+    height: 16px;
     margin-right: 10px;
     }
 
+.header-icon-image:hover,
+.header-icon-image:focus {
+    color: var(--accent-color);
+}
 
 /* .masters-soc-link {
     width: 44px;
@@ -264,7 +268,7 @@ color: var(--text-color);
     width: 270px;
 }
 
-.advantage-item+.advantage-item {
+.advantage-item + .advantage-item {
     margin-left: 30px;
 }
 
