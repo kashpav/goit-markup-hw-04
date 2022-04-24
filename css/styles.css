@@ -286,6 +286,17 @@ padding-top: 0;
     fill: #AFB1B8;
 }
 
+.masters-soc-link:hover,
+.masters-soc-link:focus {
+    background-color: teal;
+}
+
+.masters-soc-link:hover .masters-soc-icon,
+.masters-soc-link:focus .masters-soc-icon {
+    fill: black;
+}
+
+
 .face {
     display: block;
 }
