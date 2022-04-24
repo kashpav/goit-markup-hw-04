@@ -202,7 +202,8 @@ color: var(--text-color);
 }
 
 /* ---advantages section--- */
-.advantage-icon {
+
+.icon-space {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,9 +211,19 @@ color: var(--text-color);
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    background-image: 70px 70px;
-
+    border-radius: 3px;
 }
+
+/* .advantage-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--team-background-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+} */
 
 .section {
     padding-top: 94px;
@@ -250,6 +261,7 @@ color: var(--text-color);
 }
 
 /* ---About us section--- */
+
 .about-us {
     padding-top: 0;
 }
@@ -275,6 +287,7 @@ color: var(--text-color);
 }
 
 /* ---team section--- */
+
 .masters-soc-list {
     display: flex;
     justify-content: center;
