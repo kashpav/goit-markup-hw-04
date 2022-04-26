@@ -149,7 +149,7 @@ margin-right: 93px;
 
 .contact {
 display: flex;
-justify-content: center;
+justify-content: left;
 align-items: center;
 font-style: normal;
 font-weight: 500;
@@ -388,6 +388,34 @@ color: var(--text-color);
 .masters-soc-item + .masters-soc-item {
     margin-left: 10px;
 }
+/* --- Our clients section ---  */
+
+.constant-clients {
+    padding-top: 94px;
+}
+
+.clients-title {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: #AFB1B8; */
+}
+
+.clients-image {
+    fill: #AFB1BB;
+}
+
+.constant-clients-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /* ---Footer section--- */
 
