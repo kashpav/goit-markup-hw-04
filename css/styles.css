@@ -74,16 +74,14 @@ ul, ol{
     display: flex;
     align-items: center;
     height: 16px;
+    fill: var(--text-color);
+    color: var(--text-color);
 }
 
 .header-icon-image {
     fill: currentColor;
     margin-right: 10px;
-}
-
-.header-contacts:hover,
-.header-contacts:focus {
-    color: var(--accent-color);
+    height: 32px;
 }
 
 /* ----Header line---- */
@@ -111,7 +109,7 @@ margin-right: 93px;
 }
 
 .item {
-    display: block;
+    display: flex;
 }
 
 .item + .item {
@@ -141,6 +139,7 @@ margin-right: 93px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--text-color);
 }
 
 .contacts {
@@ -149,7 +148,9 @@ margin-right: 93px;
 }
 
 .contact {
-display: block;
+display: flex;
+justify-content: center;
+align-items: center;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -167,8 +168,6 @@ color: var(--text-color);
 .contact:focus {
     color: var(--accent-color);
 }
-
-
 
 /* ----Main section------ */
 
