@@ -379,12 +379,6 @@ color: var(--text-color);
     color: var(--text-color);
 }
 
-.masters-soc-list {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-
 .masters-soc-item + .masters-soc-item {
     margin-left: 10px;
 }
@@ -433,11 +427,13 @@ color: var(--text-color);
     display: block;
 }
 
-.footer {
+.footer-container {
+    display: flex;
     background-color: var(--background-solutions-color);
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 
 .footer-list {
     display: block;
@@ -473,6 +469,59 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--second-header-color);
+}
+
+.join-us-logo {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: left;
+    margin-top: 16px;
+    padding-bottom: 30px;
+}
+
+.footer-content, 
+.footer-soc {
+box-sizing: content-box;
+}
+
+.footer-soc {
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
+
+.footer-soc-item + .footer-soc-item {
+    margin-left: 10px;
+}
+
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-icon {
+    fill: currentColor;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 /* ----Portfolio----- */
